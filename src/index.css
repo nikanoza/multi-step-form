@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  height: 100%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-header-bg {
+  background-image: url(./assets/images/bg-sidebar-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
